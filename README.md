@@ -33,12 +33,6 @@ It can be very useful for automating tasks, reducing errors, and transforming ra
 Lê um arquivo .xlsx de vendas Porsche (cru) e aplica as regras definidas em
 schema.md para gerar um novo arquivo tratado, com cada coluna sanitizada
 inserida logo após a sua coluna fonte.
-
-Uso:
-    python sanitize_porsche.py [INPUT_XLSX] [OUTPUT_XLSX]
-
-Sem argumentos, usa os defaults definidos em INPUT_PATH e OUTPUT_PATH abaixo.
-
  
 ## Main Page:
 
