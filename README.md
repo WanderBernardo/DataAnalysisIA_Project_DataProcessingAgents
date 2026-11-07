@@ -4,8 +4,9 @@ It can be very useful for automating tasks, reducing errors, and transforming ra
 ## Step-by-step:
   01. Create Schema (Format your preference (.txt, .md, .xlx))
   02. Salve file
-  03. Open IA (of your preference)
-  04. 
+  03. Open AI (your preference)
+  04. Copy both files (data sample and scheme)
+  05. White Prompt 
 
 
 ## 01. Create Schema:
@@ -26,4 +27,15 @@ It can be very useful for automating tasks, reducing errors, and transforming ra
 <div align="center">
   <img width="791" height="504" alt="image" src="https://github.com/user-attachments/assets/ad9fe534-4055-4b5a-a0aa-6ab4867aafd4" />
 </div>
-  
+
+## 05. White Prompt:
+
+Lê um arquivo .xlsx de vendas Porsche (cru) e aplica as regras definidas em
+schema.md para gerar um novo arquivo tratado, com cada coluna sanitizada
+inserida logo após a sua coluna fonte.
+
+Uso:
+    python sanitize_porsche.py [INPUT_XLSX] [OUTPUT_XLSX]
+
+Sem argumentos, usa os defaults definidos em INPUT_PATH e OUTPUT_PATH abaixo.
+ 
